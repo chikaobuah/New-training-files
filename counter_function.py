@@ -19,3 +19,4 @@ def counter(start, stop):
 print(counter(1, 10)) # Should be "Counting up: 1,2,3,4,5,6,7,8,9,10"
 print(counter(2, 1)) # Should be "Counting down: 2,1"
 print(counter(5, 5)) # Should be "Counting up: 5"
+#The even_numbers function returns a space-separated string of all positive numbers that are divisible by 2, up to and including the maximum that's passed into the function. For example, even_numbers(6) returns “2 4 6”. Fill in the blank to make this work.
