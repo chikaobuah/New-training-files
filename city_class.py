@@ -53,7 +53,7 @@ def max_elevation_city(min_population):
 
 	#Format the return string
 	if return_city.name:
-		return return_city.name, return_city.country
+		return return_city.name + ", " + return_city.country
 	else:
 		return ""
 
